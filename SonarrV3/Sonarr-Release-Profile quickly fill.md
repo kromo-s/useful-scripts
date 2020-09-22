@@ -2,7 +2,8 @@ Basically this is a guide on how to quickly fill SonarrV3 using TRASH- regex pro
 
 I'm posting TRASH- release profile Regex directly from his github.
 You can check it out here (https://github.com/TRaSH-/Tutorials-FAQ/blob/master/SonarrV3/Sonarr-Release-Profile-RegEx.md).
-```# Sonarr Release Profile RegEx
+```markdown
+# Sonarr Release Profile RegEx
 # This list is made by collecting information from Sonarr Discord Channel,
 # and personal testing and a few others that helped.
 # So I want to thnx everyone who helped to make this list possible,
@@ -57,7 +58,8 @@ You can check it out here (https://github.com/TRaSH-/Tutorials-FAQ/blob/master/S
 # Optional Matches any release that contains '1-' as prefix for Release Groups
   [-25]  /(1-.+)$/i
 # Optional Matches Season Packs (use this if you prefer Season packs)
-  [15]   /\bS\d+\b(?!E\d+\b)/i```
+  [15]   /\bS\d+\b(?!E\d+\b)/i
+```
 
 
 
@@ -66,7 +68,8 @@ You can check it out here (https://github.com/TRaSH-/Tutorials-FAQ/blob/master/S
   2. Press the + to create a release profile page
   3. Press F12 to enter the console
   4. Run this command
-  ```// https://github.com/facebook/react/issues/11488#issuecomment-347775628
+  ```markdown
+  // https://github.com/facebook/react/issues/11488#issuecomment-347775628
 const changeValue = (input, value) => {
   let lastValue = input.value;
   input.value = value;
@@ -83,9 +86,13 @@ let populate = (score, groups) => {
     changeValue($('.KeyValueListInputItem\\/keyInput\\/3YYEs')[i], arr[i]);
     changeValue($('.KeyValueListInputItem\\/valueInput\\/3zlQA')[i], score);
   }
-}```
+}
+```
 
-5. follow with ```populate(100,'/(amzn|amazon).?web.?dl/i,/(atvp).?web.?dl/i,/(dsnp|dsny|disney).?web.?dl/i,/(nf|netflix).?web.?dl/i,/(DCU).?web.?dl/i,/(HMAX).?web.?dl/i,/(-deflate|-inflate)/i,/(hulu|.?hbo\.?)/i,/(red).?web.?dl/i,/(QIBI).?web.?dl/i,/(iT).?web.?dl/i,/(-AJP69|-BTN|-CasStudio|-CtrlHD|-KiNGS)/i,/(-monkee|-MZABI|-NTb|-NTG|-QOQ|-RTN)/i,/(-TOMMY|-ViSUM|-T6D)/i,/(-BTW|-Chotab|-CiT|-DEEP|-iJP|-iT00NZ)/i,/(-LAZY|-NYH|-SA89|-SIGMA|-TEPES|-TVSmash)/i,/(-SDCC|-iKA|-iJP|-Cinefeel|-SPiRiT|-FC)/i,/(-JETIX|-Coo7|-WELP|-KiMCHI|-BLUTONiUM)/i,/(-orbitron|-ETHiCS|-RTFM)/i,/(repack3)/i,/(repack2)/i,/(repack|proper)/i,/(-AMCON|-AMRAP|-BAMBOOZLE|-EDHD|-ION10)/i,/(-MEMENTO|-METCON|-POKE|-STARZ|-STRiFE)/i,/(-TRUMP|-WEBTiFUL|-JOMT|-APRiCiTY|-HILLARY)/i,/(-SQUEAK|-KOMPOST|-WNN|-LiGATE|-BTX|-ALiGN)/i,/(-BLACKHAT)/i,0,/(TBS|-BRiNK|-CHX|-XLF|-worldmkv|-GHOSTS)/i,/(\[rartv\]|\[eztv\]|\[TGx\])/i,/(-4P|-4Planet|-AsRequested|-BUYMORE)/i,/(-Chamele0n|-GEROV|-iNC0GNiTO|-NZBGeek)/i,/(-Obfuscated|-postbot|-Rakuv|-Scrambled)/i,/(-WhiteRev|-xpost)/i')```
+5. follow with 
+```markdown
+populate(100,'/(amzn|amazon).?web.?dl/i,/(atvp).?web.?dl/i,/(dsnp|dsny|disney).?web.?dl/i,/(nf|netflix).?web.?dl/i,/(DCU).?web.?dl/i,/(HMAX).?web.?dl/i,/(-deflate|-inflate)/i,/(hulu|.?hbo\.?)/i,/(red).?web.?dl/i,/(QIBI).?web.?dl/i,/(iT).?web.?dl/i,/(-AJP69|-BTN|-CasStudio|-CtrlHD|-KiNGS)/i,/(-monkee|-MZABI|-NTb|-NTG|-QOQ|-RTN)/i,/(-TOMMY|-ViSUM|-T6D)/i,/(-BTW|-Chotab|-CiT|-DEEP|-iJP|-iT00NZ)/i,/(-LAZY|-NYH|-SA89|-SIGMA|-TEPES|-TVSmash)/i,/(-SDCC|-iKA|-iJP|-Cinefeel|-SPiRiT|-FC)/i,/(-JETIX|-Coo7|-WELP|-KiMCHI|-BLUTONiUM)/i,/(-orbitron|-ETHiCS|-RTFM)/i,/(repack3)/i,/(repack2)/i,/(repack|proper)/i,/(-AMCON|-AMRAP|-BAMBOOZLE|-EDHD|-ION10)/i,/(-MEMENTO|-METCON|-POKE|-STARZ|-STRiFE)/i,/(-TRUMP|-WEBTiFUL|-JOMT|-APRiCiTY|-HILLARY)/i,/(-SQUEAK|-KOMPOST|-WNN|-LiGATE|-BTX|-ALiGN)/i,/(-BLACKHAT)/i,0,/(TBS|-BRiNK|-CHX|-XLF|-worldmkv|-GHOSTS)/i,/(\[rartv\]|\[eztv\]|\[TGx\])/i,/(-4P|-4Planet|-AsRequested|-BUYMORE)/i,/(-Chamele0n|-GEROV|-iNC0GNiTO|-NZBGeek)/i,/(-Obfuscated|-postbot|-Rakuv|-Scrambled)/i,/(-WhiteRev|-xpost)/i')
+```
 
 6. Now you have a quick list and all you have to do is change the numbers based on trash- regex list :)
 
